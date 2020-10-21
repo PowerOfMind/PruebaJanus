@@ -1,0 +1,5 @@
+include ':app'
+rootProject.name = "PruebaJanus"
+
+include ':janus'
+project(':janus').projectDir = new File(settingsDir, '../../../Desktop/cosasJUSAN/janus-mobile-sdk-master/platforms/android/janus-client')
